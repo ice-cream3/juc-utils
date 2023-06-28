@@ -1,10 +1,10 @@
-package com.juc.juc_utils;
+package com.example.demo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class JucUtilsApplicationTests {
+class DemoApplicationTests {
 
     @Test
     void contextLoads() {

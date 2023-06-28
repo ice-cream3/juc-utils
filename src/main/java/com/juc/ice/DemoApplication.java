@@ -1,13 +1,13 @@
-package com.juc.juc_utils;
+package com.juc.ice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class JucUtilsApplication {
+public class DemoApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(JucUtilsApplication.class, args);
+        SpringApplication.run(DemoApplication.class, args);
     }
 
 }
