@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.juc.ice.utils;
 import org.apache.commons.codec.binary.Base32;
 import org.apache.commons.codec.binary.Base64;
 
@@ -10,8 +10,8 @@ import java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;
 
 /**
- * @ClassName: TestMain
- * @Description:
+ * @ClassName: GoogleAuthenticator
+ * @Description: 谷歌验证码生成类
  * @Author: ice
  * @Date: 2023/6/28 12:05
  */

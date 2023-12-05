@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.juc.ice.utils;
 
 import cn.hutool.extra.qrcode.BufferedImageLuminanceSource;
 import com.google.zxing.*;
@@ -15,7 +15,7 @@ import java.io.OutputStream;
 import java.util.Hashtable;
 /**
  * @ClassName: QRCodeUtil
- * @Description:
+ * @Description: 二维码生成类
  * @Author: ice
  * @Date: 2023/6/28 12:11
  */
