@@ -1,0 +1,17 @@
+
+# rocketmq????
+rocketmq:
+  name-server: 192.168.106.101:9876;192.168.106.102:9876;192.168.106.103:9876
+  producer:
+    group: group-ice
+    send-message-timeout: 50000
+
+global:
+  rocketmq:
+    topic: global-topic
+    socket-topic: socket-topic
+    trans-topic: transaction-topic
+    bytesRequestTopic: bytesRequestTopic:tagA
+    stringRequestTopic: stringRequestTopic:tagA
+    objectRequestTopic: objectRequestTopic:tagA
+    genericRequestTopic: genericRequestTopic:tagA
