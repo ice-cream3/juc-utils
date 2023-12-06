@@ -19,6 +19,7 @@
         <google.zxing>3.5.1</google.zxing>
         <redisson.springboot.starter.version>3.9.1</redisson.springboot.starter.version>
         <rocketmq-spring-boot-starter.version>2.2.2</rocketmq-spring-boot-starter.version>
+        <junit.version>4.13.2</junit.version>
     </properties>
     <dependencies>
         <dependency>
@@ -75,6 +76,13 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
         </dependency>
 
 

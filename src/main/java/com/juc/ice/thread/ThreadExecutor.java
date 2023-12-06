@@ -2,6 +2,7 @@ package com.juc.ice.thread;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Service;
 
 import java.util.concurrent.*;
 import java.util.concurrent.atomic.AtomicInteger;
@@ -12,6 +13,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  * @Author: ice
  * @Date: 2023/6/27 17:20
  */
+
 public class ThreadExecutor {
 
     private static final Logger logger = LoggerFactory.getLogger(ThreadExecutor.class);
